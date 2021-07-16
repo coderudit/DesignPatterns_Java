@@ -1,5 +1,5 @@
 package creational.factorymethod.head.pizza;
 
 public enum PizzaType {
-	Cheese, Greek, Pepperoni
+	Cheese, Greek, Pepperoni, Clams
 }
