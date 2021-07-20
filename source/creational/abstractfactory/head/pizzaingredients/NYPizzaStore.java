@@ -1,6 +1,5 @@
 package creational.abstractfactory.head.pizzaingredients;
 
-import creational.factorymethod.head.pizzafactory.*;
 import creational.factorymethod.head.pizza.*;
 
 public class NYPizzaStore extends PizzaStore{
