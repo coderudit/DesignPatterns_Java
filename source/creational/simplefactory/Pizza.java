@@ -1,6 +1,6 @@
 package creational.simplefactory;
 
-public abstract class Pizza {
+public class Pizza {
 	public void prepare() {
 		System.out.println("Pizza is being prepared.");
 	}

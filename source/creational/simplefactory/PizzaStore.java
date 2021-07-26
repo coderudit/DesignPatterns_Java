@@ -1,6 +1,6 @@
 package creational.simplefactory;
 
-public abstract class PizzaStore {
+public class PizzaStore {
 	SimplePizzaFactory factory;
 	
 	public PizzaStore(SimplePizzaFactory factory) {
