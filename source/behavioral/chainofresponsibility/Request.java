@@ -1,4 +1,4 @@
-package behavioral.chainofresponsibility.logger;
+package behavioral.chainofresponsibility;
 
 public class Request {
 	private RequestType requestType;

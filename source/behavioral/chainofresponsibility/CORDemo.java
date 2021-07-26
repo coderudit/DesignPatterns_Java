@@ -1,4 +1,4 @@
-package behavioral.chainofresponsibility.logger;
+package behavioral.chainofresponsibility;
 
 
 public class CORDemo {
@@ -10,7 +10,7 @@ public class CORDemo {
 		accounts.setSuccessor(manufacturing);
 		manufacturing.setSuccessor(sales);
 		
-		Request request = new Request(RequestType.NONE, "Sales request.") ;
+		Request request = new Request(RequestType.SALES, "Sales request.") ;
 		accounts.handleRequest(request);
 	}
 }

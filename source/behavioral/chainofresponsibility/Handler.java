@@ -1,4 +1,4 @@
-package behavioral.chainofresponsibility.logger;
+package behavioral.chainofresponsibility;
 
 public abstract class Handler {
 	
